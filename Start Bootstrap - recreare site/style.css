@@ -1,0 +1,832 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+
+:root {
+    --color-1: #FED136;
+    --color-2: #212529;
+    --color-3: #FFC800;
+    --color-4: #6C757D;
+}
+
+#head {
+    height: 130vh;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+header {
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background: linear-gradient(#21252990, #21252990);
+}
+
+header
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: var(--color-1);
+    font-size: 30px;
+}
+
+#links
+a {
+    margin-left: 45px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 330px;
+    color: #fff;
+}
+
+#text-1 
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+#text-1 
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+#text-1
+button {
+    background-color: var(--color-3);
+    color: #fff;
+    padding: 22px 45px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.title
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title
+p {
+    font-style: italic;
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+#services-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.service h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.service p {
+    text-align: center;
+    color: var(--color-4);
+    font-family: 'Noto Serif JP', serif;
+    font-size: 15px;
+}
+
+.border-img {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.service
+#img-1 {
+    background: url(https://cdn-icons-png.flaticon.com/512/3514/3514491.png);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+}
+
+.service
+#img-2 {
+    background: url(https://cdn-icons-png.flaticon.com/512/5082/5082142.png);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+}
+
+.service
+#img-3 {
+    background: url(https://cdn-icons-png.flaticon.com/512/25/25239.png);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+#container-1 {
+    background-color: #e8eaec;
+}
+
+#portfolio-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 80px;
+}
+
+#portfolio-list h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#portfolio-list p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+}
+
+#row,
+#row1 {
+    background-color: #e8eaec;
+    width: 1100px;
+    height: 400px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#column1,
+#column2,
+#column3, 
+#column4, 
+#column5, 
+#column6 {
+    background-color: #fff;
+    width: 340px;
+    height: 380px;
+}
+
+#column1
+#image1 {
+background-image: url(https://wallpapercave.com/wp/wp4848135.jpg);
+width: 340px;
+height: 260px;
+background-position: center;
+background-size: cover;
+transition: 2s ease-out 100ms;
+} 
+
+#image1:hover {
+    opacity: 0.4;
+}
+
+#column2
+#image2 {
+    background: url(https://img.freepik.com/premium-photo/bright-female-sneakers-pink-background-fashion-blog-magazine-concept-women-s-shoes-trendy-sneakers-fashion-style-lifestyle-flat-lay-top-view-copy-space-minimal-background_479776-6531.jpg?w=2000);
+    width: 340px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    transition: 2s ease-out 100ms;
+}
+
+#image2:hover {
+    opacity: 0.4;
+}
+
+#column3
+#image3 {
+    background: url(https://static.techspot.com/images2/news/bigimage/2016/06/2016-06-10-image.jpg);
+    width: 340px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    transition: 2s ease-out 100ms;
+} 
+
+#image3:hover {
+    opacity: 0.4;
+}
+
+#column4
+#image4 {
+    background: url(https://cdn.wallpapersafari.com/42/84/Z2DUct.jpg);
+    width: 340px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    transition: 2s ease-out 100ms;
+} 
+
+#image4:hover {
+    opacity: 0.4;
+}
+
+#column5
+#image5 {
+    background: url(https://c0.wallpaperflare.com/preview/138/244/938/device-mockup-gradient-laptop-mockup-laptop.jpg);
+    width: 340px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    transition: 2s ease-out 100ms;
+} 
+
+#image5:hover {
+    opacity: 0.4;
+}
+
+#column6
+#image6 {
+    background: url(https://thestrategystory.com/wp-content/uploads/2021/04/laura-chouette-egaUoIaUx_I-unsplash-1-e1617471403975.jpg);
+    width: 340px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    transition: 2s ease-out 100ms;
+} 
+
+#image6:hover {
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+.about-text-left
+ h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.about-text-left
+p {
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+    padding-bottom: 40px;
+    padding-top: 10px;
+    width: 330px;
+    text-align: end;
+}
+
+.about-text-right
+ h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.about-text-right
+p {
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+    padding-bottom: 40px;
+    padding-top: 10px;
+    width: 330px;
+    text-align: start;
+}
+
+#about-timeline ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-timeline ul li {
+    margin: 10px;
+    display: flex;
+}
+
+#about-timeline ul li div.timeline-circle {
+    position: relative;
+    border: 7px solid #E9ECEF;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    margin-top: 174px;
+    background-color: #F8F9FA;
+    z-index: 1;
+    display: block;
+}
+
+#about-timeline ul li div.timeline-circle:before {
+	position: absolute; 
+	border: 0.5px solid #e1e4e4;
+	width: 0; 
+	height: 197px; 
+	display: block;
+	content: ''; 
+	left: 50%; 
+	z-index: 1; 
+	top: -203px; 
+	margin-left: -1px;
+}
+
+#about-timeline ul li:first-child div.timeline-circle:before {
+    display: none;
+}
+
+#about-timeline ul:first-child {
+    margin-top: -170px;
+}
+
+#about-timeline ul:last-child {
+    margin-bottom: 80px;
+}
+
+.about-text-left {
+    position: absolute;
+    translate: -400px 170px ;
+}
+
+.about-text-right {
+    position: absolute;
+    translate: 240px 175px;
+}
+
+#im1 {
+    background: url(https://i.pinimg.com/474x/6b/b4/19/6bb41966694fd5562e4e9e0ea4e20b2b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#im2 {
+    background: url(https://i.pinimg.com/474x/e4/56/94/e4569443714172f2773aea229195685c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#im3 {
+    background: url(https://i.pinimg.com/474x/e0/91/87/e091874e5f72834253d5cd28cb890f3b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#im4 {
+    background: url(https://i.pinimg.com/474x/bf/a2/b9/bfa2b978b578db5848720a0baad139f1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#im5 {
+    background: url(https://i.pinimg.com/564x/a5/fb/f7/a5fbf7a7981d0fceb07d07c3c7da5de6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+#container-3 {
+    background-color: #e8eaec;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#paragraf {
+    text-align: center;
+    width: 600px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: #6C757D;
+    font-family: 'Noto Serif JP', serif;
+}
+
+
+
+#team-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#person-team-cont {
+    width: 250px;
+    height: 400px;
+}
+#person-img {
+    background: url(https://i.pinimg.com/474x/de/a7/33/dea73398ffd1a7c97212604d7dd613d4.jpg);
+    background-position: start;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 7px solid #6C757D;
+    border-radius: 100%;
+}
+#name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#position{
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imglinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#tweeter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/1384/1384017.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+#facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/2168/2168281.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+#Linkedln {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/1384/1384014.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#person-team-cont1 {
+    width: 250px;
+    height: 400px;
+}
+#person-img1 {
+    background: url(https://i.pinimg.com/474x/79/c7/64/79c764c2f764def490ed82d863f74a55.jpg);
+    background-position: start;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 7px solid #6C757D;
+    border-radius: 100%;
+}
+#name1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#position1 {
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tweeter1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/1384/1384017.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+#facebook1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/2168/2168281.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+#Linkedln1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/1384/1384014.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#person-team-cont2 {
+    width: 250px;
+    height: 400px;
+}
+#person-img2 {
+    background: url(https://i.pinimg.com/736x/ac/fa/9d/acfa9da98c688990fb77ecc03853bd37.jpg);
+    background-position: start;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 7px solid #6C757D;
+    border-radius: 100%;
+}
+#name2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#position2 {
+    font-family: 'Noto Serif JP', serif;
+    color: var(--color-4);
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tweeter2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/1384/1384017.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+#facebook2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/2168/2168281.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+#Linkedln2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(https://cdn-icons-png.flaticon.com/512/1384/1384014.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+#container-4 {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#microsoft {
+    background: url(https://cdn-icons-png.flaticon.com/512/1/1816.png);
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+#google {
+    background: url(https://cdn-icons-png.flaticon.com/512/104/104093.png);
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+#facebookk {
+    background: url(https://cdn-icons-png.flaticon.com/512/3128/3128208.png);
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+#ibm {
+    background: url(https://cdn-icons-png.flaticon.com/512/5969/5969038.png);
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+
+
+
+
+
+
+#container-5 {
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1550406307-84b491d68ba7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90vw;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#contact-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 500px;
+}
+
+#name-i {
+    width: 500px;
+    height: 70px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#email-i {
+    width: 500px;
+    height: 70px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#phone-i {
+    width: 500px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-2 {
+    height: 250px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+#contact-2 textarea {
+    width: 500px;
+    height: 250px;
+    border: none;
+    border-radius: 5px;
+}
+textarea::placeholder{
+    padding-top: 20px;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #d2d4d7;
+}
+
+#contact-button {
+    background-color: var(--color-3);
+    color: #fff;
+    padding: 22px 45px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#pppp {
+    margin-left: 15px;
+}
